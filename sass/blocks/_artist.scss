@@ -1,0 +1,58 @@
+.artist{
+  padding-top: 208px;
+  margin-bottom: 240px;
+  background-image: url("../images/artist-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 1500px 88px;
+  background-position: center top;
+}
+
+// .artist__box{
+
+// }
+
+.artist__list{
+  @include flex-starter;
+  flex-wrap: wrap;
+  @include list-global;
+  width: 100%;
+  max-width: 1160px;
+}
+
+.artist__item{
+  margin: 0 60px 60px 0;
+  &:nth-child(4){
+    margin-right: 0;
+  }
+  &:nth-child(5){
+    margin-bottom: 0;
+  }
+  &:nth-child(6){
+    margin-bottom: 0;
+  }
+  &:nth-child(7){
+    margin-bottom: 0;
+  }
+}
+
+.artist__link{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.aartist__img{
+  width: 245px;
+  height: 245px;
+}
+
+.artist__name{
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}

@@ -1,0 +1,94 @@
+.wave{
+  margin-bottom: 120px;
+  padding-top: 7px;
+}
+
+.wave__box{
+  display: flex;
+}
+
+.wave__left{
+  width: 100%;
+  max-width: 351px;
+}
+
+.wave__title{
+  margin: 0;
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;  
+}
+
+.wave__text{
+  margin: 0 0 41px;
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #A8A8A8;  
+}
+
+.wave__img{
+  width: 360px;
+  height: 360px;
+}
+
+.wave__right{
+  width: 100%;
+  max-width: 573px;
+  margin-left: auto;
+}
+
+.wave__desc{
+  margin: 0 0 27px;
+  padding-left: 22px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+  border-left: 2px solid #8DFD1B;
+}
+
+.wave__info-box{
+  margin: 0 0 36px;
+}
+
+.wave__info{
+  display: inline-block;
+  margin-bottom: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  &:nth-child(1){
+    max-width: 546px;
+  }
+  &:nth-child(3){
+    margin-bottom: 0;
+  }
+}
+
+.wave__link{
+  display: inline-block;
+  padding: 10px 33px 16px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #8DFD1B;
+}
